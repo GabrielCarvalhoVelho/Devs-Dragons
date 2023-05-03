@@ -1,15 +1,11 @@
 import { Personagem } from "./personagem.js"
 
 export class Arqueiro extends Personagem {
-    elementoMagico
-    levelMagico
     destreza
     tipo = 'Arqueiro'
 
-   constructor(nome, level, elementoMagico, levelMagico, destreza) {
+   constructor(nome, level, destreza) {
         super(nome, level)
-         this.elementoMagico = elementoMagico
-         this.levelMagico = levelMagico
          this.destreza =  destreza
     }
     
