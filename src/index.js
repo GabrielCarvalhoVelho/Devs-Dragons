@@ -11,8 +11,11 @@ const arqueiroBruno = new Arqueiro('Bruno', 6, 10)
 
 const arqueiroMagoChico = new ArqueiroMago('Chico', 7, 10, 'Ar', 4, 8)
 
+//arqueiroBruno.#level = 15
+
 const personagens = [magoAntonio, magaJulia, arqueiroBruno, arqueiroMagoChico]
 
 new PersonagemView(personagens).render()
 
-console.log(Personagem.verificarVencedor(arqueiroBruno, magoAntonio))
+//console.log(Personagem.verificarVencedor(arqueiroBruno, magoAntonio))
+console.log(arqueiroBruno)
