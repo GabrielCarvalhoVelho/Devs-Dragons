@@ -5,7 +5,7 @@ export class Personagem {
     level
     descricao
 
-    constructor(nome, level, tipo) {
+    constructor(nome, level) {
         this.nome = nome
         this.level = level
     }
