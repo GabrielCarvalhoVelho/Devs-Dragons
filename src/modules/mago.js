@@ -12,7 +12,7 @@ export class Mago extends Personagem {
          this.levelMagico = levelMagico
          this.inteligencia =  inteligencia
     }
-    
+
      obterInsignia(){
         if(this.levelMagico >= 5 && this.inteligencia >= 5) {
             return `Mestre do ${this.elementoMagico}`
@@ -20,4 +20,4 @@ export class Mago extends Personagem {
         return super.obterInsignia()
     }
 
- }
+}
