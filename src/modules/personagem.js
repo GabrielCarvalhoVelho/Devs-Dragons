@@ -16,4 +16,15 @@ export class Personagem {
         }
         return `${this.constructor.tipo} iniciante`
     }
+
+    static verificarVencedor(personagem1, personagem2){
+        if(personagem1.level === personagem2.level) {
+            return 'Empate!'
+        }
+
+        if(personagem1.level > personagem2.level){
+            return `${personagem1.constructor.tipo} ${personagem1.nome} é o VENCEDOR!`
+        }
+        return `${personagem2.constructor.tipo} ${personagem2.nome} é o VENCEDOR!`
+    }
 }
